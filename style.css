@@ -1,0 +1,46 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+.grecory{
+    background: orange;
+    height: 100vh;
+}
+.container {
+    margin: 0 auto;
+    width: 30%;
+    
+}
+.grecory_wrapper{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    height: 100vh;
+    box-shadow: 10px 10px 24px 0px rgb(0 0 0 / 50%);
+}
+.title{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.input{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.input_text{
+    padding-left: 15px;
+    outline: 0;
+    border: 0;
+    border-bottom: 3px solid black;
+    font-size: 20px;
+}
+.pen{
+    width: 30px;
+    cursor: pointer;
+}
+.new_text{
+    margin-left: 70px;
+    margin-top: 20px;
+    font-size: 25px;
+}
